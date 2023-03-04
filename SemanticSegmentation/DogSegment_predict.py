@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@TomoyoshiAkaya 
-ahmedfgad
-/
-Mask-RCNN-TF2
-Public
-forked from matterport/Mask_RCNN
-Fork your own copy of ahmedfgad/Mask-RCNN-TF2
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-Beta Try the new code view
-Mask-RCNN-TF2/kangaroo-transfer-learning/kangaroo_prediction.py /
-@ahmedfgad
-ahmedfgad change requirements and edit transfer learning code
-Latest commit 329abc1 on May 11, 2021
- History
- 1 contributor
-50 lines (39 sloc)  1.71 KB
-
 import mrcnn
 import mrcnn.config
 import mrcnn.model
@@ -78,18 +48,3 @@ mrcnn.visualize.display_instances(image=image,
                                   class_ids=r['class_ids'], 
                                   class_names=CLASS_NAMES, 
                                   scores=r['scores'])
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Mask-RCNN-TF2/kangaroo_prediction.py at master · ahmedfgad/Mask-RCNN-TF2
